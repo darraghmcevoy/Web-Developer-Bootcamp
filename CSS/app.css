@@ -1,7 +1,15 @@
 h1 {
   text-align: center;
-  font-weight: normal;
+  font-weight: 400;
+  text-decoration: red underline wavy;
+  letter-spacing: 15px;
 }
+
+a {
+  text-decoration: pink none;
+  color: blue;
+}
+
 p {
-  
+  line-height: 2;
 }
