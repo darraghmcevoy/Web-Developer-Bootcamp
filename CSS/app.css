@@ -3,6 +3,9 @@ h1 {
   font-weight: 400;
   text-decoration: red underline wavy;
   letter-spacing: 15px;
+  font-size: 80px;
+  /* font-family: Big Caslon, Futura, Bodoni MT, sans-serif; */
+  font-family: monospace;
 }
 
 a {
