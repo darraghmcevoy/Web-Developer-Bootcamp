@@ -83,3 +83,24 @@ a[href*="google"] {
 .post:nth-of-type(2n) {
   background-color: #d8fcd0;
 }
+
+h2::first-letter {
+  color: #e63946;
+  text-shadow: #dfdf01;
+}
+
+h2::selection {
+  background-color: sandybrown;
+}
+
+p::first-line {
+  color: purple;
+}
+
+p::selection {
+  background-color: #ffba08;
+}
+
+.post ::selection {
+  background-color: sandybrown;
+}
