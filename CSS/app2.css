@@ -15,6 +15,16 @@ h2 {
   color: #264653;
 }
 
+button:hover {
+  background-color: maroon;
+  color: #f0efeb;
+}
+
+#signup:hover {
+  background-color: maroon;
+  color: #f0efeb;
+}
+
 #signup {
   background-color: #264653;
   color: #f1faee;
@@ -32,8 +42,44 @@ span {
 
 .post a {
   color: rgb(46, 44, 63);
+  text-decoration: none;
+  font-weight: 700;
 }
 
 footer a {
   color: #e63946;
+}
+
+h2 + button {
+  font-size: 20px;
+}
+
+footer > a {
+  color: #264653;
+}
+
+input:hover[type="password"] {
+  color: #e63946;
+}
+
+a[href*="google"] {
+  color: magenta;
+}
+
+.post button:hover {
+  background-color: maroon;
+  color: #f0efeb;
+}
+
+.post a:hover {
+  text-decoration: underline;
+  text-decoration-color: darkorange;
+}
+
+.post button:active {
+  background-color: hsl(37, 100%, 72%);
+}
+
+.post:nth-of-type(2n) {
+  background-color: #d8fcd0;
 }
