@@ -7,5 +7,12 @@ section {
 #rgba {
   width: 50%;
   height: 50%;
-  background-color: rgb(255, 255, 255, 0.7);
+  background-color: #ffffff6e;
+}
+
+#opacity {
+  width: 50%;
+  height: 50%;
+  background-color: #ecdd09;
+  opacity: 0.3;
 }
