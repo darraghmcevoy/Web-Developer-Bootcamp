@@ -1,0 +1,25 @@
+body {
+  font-family: "Rock Salt", "Montserrat", "Lato", sans-serif;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rems;
+  margin: 0 auto;
+  font-family: "Monoton", cursive;
+  font: 400;
+}
+
+h1 + h2 {
+  margin-top: 10px;
+}
+
+h2,
+h3 {
+  font-family: "Lato", sans-serif;
+  font: 100;
+}
